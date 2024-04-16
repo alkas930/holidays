@@ -21,8 +21,8 @@ class _RegisteredState extends State<Registered> {
         child: Column(
           children: [
             Container(
-                // height: size.height,
-                // width: size.width,
+                height: size.height,
+                width: size.width,
                 child: Image.asset("assets/leaf3.jpg")),
             SizedBox(height: 40),
             Text(
